@@ -1,0 +1,17 @@
+/**Styles for Spoddano****/
+#payment .payment_methods li .payment_method_spoddano{ padding: 1em;}
+#spoddano-field-box {background: #c8daff;padding: 1em;margin-top: 1em;}
+#spoddano-field-box .spod-payment-panel {background: #fff;padding: 0.5em;border: 2px solid #3568d1;margin-bottom:1em;}
+#spoddano-field-box .spod-total-ada {background: #eee;padding: 0.5em;border: 2px solid #3568d1;}
+#spoddano-field-box .spod-payment-panel img.spod-qrcode-img {margin: 2em auto;display: block;background: #fff;float: none;max-height: none;}
+#spoddano-field-box .spod-ada-address {background: #eee;border: solid 1px #ddd;text-align: center;}
+#spoddano-field-box #spodadatooltip {font-size: 10px;text-decoration: none;position: absolute;right: calc(50% - 110px);top: 0px;text-transform: uppercase;font-family: arial, sans-serif;}
+#spoddano-field-box .spod-ada-txt-tooltip {margin: 0 auto;display: block;text-align: center;}
+#spoddano-field-box .spod-ada-txt-tooltip a {text-decoration: none;position: relative;display: inline-block;text-align: center;margin: 0.5em auto 1em;-webkit-box-shadow: 0px 5px 11px 1px #cdcdcd;box-shadow: 0px 5px 11px 1px #cdcdcd;padding: 13px 0px 14px;color: #000;font-family: arial, sans-serif;font-size: 16px;background: -o-linear-gradient(45deg, #0065fd, #82d6ff);background: linear-gradient(45deg, #0065fd, #82d6ff);color: #fff;width: 100%;font-weight: bold;}
+#spoddano-field-box #spodadaaddress:focus-visible {outline:none!important;}
+#spoddano-field-box #ada_txid_field {border: 2px solid #d13535;}
+#spoddano-field-box p {color: #000;}
+#spoddano-field-box #spodadaaddress {background: #eee;border:none;font-size: 14px;color: #000;text-align: center;resize: none;padding: 20px 12px;-webkit-box-shadow: none;box-shadow: none;vertical-align: middle;}
+#spoddano-field-box #spodadaaddress-hidden {position: absolute; left: -10000000px;}
+#spoddano-field-box svg {position: relative;margin: 0 auto 0em;display: inline-block;top: 4px;padding-left: 5px;}
+#spoddano-field-box #spodadaaddress-hidden {position: absolute; left: -10000000px;}

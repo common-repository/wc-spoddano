@@ -1,0 +1,53 @@
+Spoddano - Cardano For Woocommerce Payment Gateway Plugin
+
+== Changelog ==
+
+= 1.2.1 =
+* Switch Sessions to use Transients instead, better performance, less api calls
+
+= 1.2.0 =
+* Rework API retrieve function to only make the call once
+    -Increase performance of checkout page
+    -Less credits required for the coinmarketcap API 
+
+= 1.1.1 =
+* Style Tweak - fix QR code image not centred
+
+= 1.0.9 =
+* Fix address on some stores from breaking outside container
+
+= 1.0.8 =
+* Fix amount from showing twice
+
+= 1.0.7 =
+* Add a copy amount button, for easier usability.
+
+= 1.0.6 =
+* Fix Global Variable that may have conflicted with other gateways
+
+= 1.0.5 =
+* Fix email error logging issue
+
+= 1.0.4 =
+* Add the ability to disable the transaction id field
+* Further code optimisations
+
+= 1.0.3 =
+* Tidy up transaction details on email and thankyou page
+* Provide direct link to Cardano Explorer with provided transaction id on email, thankyou page, orders dashboard
+* Tidy up code
+
+= 1.0.2 =
+* Add validation for transaction id/hash number
+    -must be 64 characters
+    -must not contain any uppercase letters
+    -must only contain letters between a-f
+    -must be made up of both letters and numbers
+* Fix bug whereby Cardano details showing up on thankyou page and emails for other payment methods used
+
+= 1.0.1 =
+* Fix bug that required transaction id field when other payment methods were used
+* Fix bug in Firefox returning false page when clicking on "Copy Address" button
+
+= 1.0.0 =
+* First Stable version released
